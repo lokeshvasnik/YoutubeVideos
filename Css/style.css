@@ -1,0 +1,93 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;800&display=swap');
+
+/* Root */
+:root {
+    --main-color: #1e1b1c;
+    --pure: #fff;
+    --secondary-color: #7d7d7d;
+}
+::selection {
+    background-color: var(--main-color);
+    color: var(--pure);
+}
+
+/* Hide scrollbar for chrome,safari */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.6rem !important;
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+/* hamburger menu */
+.hamburger {
+    width: 1.875rem;
+    height: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: var(--main-color);
+    transition: all 0.3s ease;
+}
+
+/* Now the main part over here */
+
+/* Top bar */
+
+.hamburger.open .bar:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .bar:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+/* Rotate the image */
+.rotate {
+    animation: rotate 16s infinite linear;
+}
+
+/* Simple part */
+@keyframes rotate {
+    from {
+        /* Front 0 to 360deg */
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Hide class */
+.hide {
+    display: none;
+}
+
+/* Ham Nav  */
+.box {
+    background-color: var(--main-color);
+    color: white;
+}
