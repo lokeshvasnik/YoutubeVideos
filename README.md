@@ -4,9 +4,9 @@
 This repository contains the source code for various YouTube video projects. Each project has its own branch, allowing for easy access and organization of the code.
 
 #Branches
-- `project1`: Contains the source code for the first project, which is a video editing application.
-- `project2`: Contains the source code for the second project, which is a video streaming platform.
-- `project3`: Contains the source code for the third project, which is a video chat application.
+- `project1`: Contains the source code for the first project, which is a Normal Website But Has Good Design
+- `project2`: Contains the source code for the second project, which is a Home Page.
+- `project3`: Contains the source code for the third project, which is a Api.
 
 #Instructions
 1. Clone the repository to your local machine using the command `git clone https://github.com/[username]/youtube-video-project-source-code.git`
