@@ -43,7 +43,7 @@ body {
 }
 
 .formContainer {
-    background-color: var(--pure-color)
+    background-color: var(--pure-color);
     padding: 2.9375rem 8.75rem;
     border-radius: 3.375rem;
 }
